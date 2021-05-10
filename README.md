@@ -4,6 +4,8 @@
 
 ***This dataset was obtained on 25th April 2021***
 
+***This dataset contained News dataset in Bahasa Indonesia***
+
 ## Overview  
 The dataset CSV files is comma separated file and have the following columns:
 
