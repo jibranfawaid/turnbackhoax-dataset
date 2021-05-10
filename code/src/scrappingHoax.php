@@ -20,6 +20,7 @@ class ScriptCopy
         </tr>
         ";
 
+        //350 was the number of turnbackhoax pages
         for ($i=1; $i < 350; $i++) { 
             $crawler = $client->request('GET', 'https://turnbackhoax.id/page/'.$i);
             $data = $crawler->filter('article')->each(function ($result) {
@@ -53,12 +54,8 @@ class ScriptCopy
         </tr>
         ";
 
-        if ( $xlsx = SimpleXLSX::parse('Hasil Scrapping 1.xlsx') ) {
+        if ( $xlsx = SimpleXLSX::parse('Scrapping Result (Heading and Link).xlsx') ) {
             foreach($xlsx->rows() as $key => $value){
-                if ($key < 1533) continue;
-                if($key == 0){
-                    continue;
-                }
                 echo "<tr>";
                 // echo "<td>";
                 // echo $value[0];
