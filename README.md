@@ -11,7 +11,7 @@ The dataset CSV files is comma separated file and have the following columns:
  - `Headline` - Title of the news article
  - `Body` - Content of the news article
  
-##Scrapping Method    
+## Scrapping Method    
  
 Scripts are written in PHP.
 
