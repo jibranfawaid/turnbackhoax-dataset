@@ -11,9 +11,7 @@ The dataset CSV files is comma separated file and have the following columns:
  - `Headline` - Title of the news article
  - `Body` - Content of the news article
  
-##Scrapping Method
-
-## Installation    
+##Scrapping Method    
  
 Scripts are written in PHP.
 
@@ -37,3 +35,4 @@ After we got the link, we iterating them and send a request to get their content
 
     $script->copy_content();
 
+And again we manually copy them to excel
